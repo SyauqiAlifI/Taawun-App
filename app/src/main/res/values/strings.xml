@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">TaawunApp</string>
+
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="dzikir">Dzikir</string>
+    <string name="doa">Doa</string>
+    <string name="txt_demo_time">11.00</string>
+    <string name="txt_demo_adzan">Ashar</string>
+    <string name="txt_demo_nama_doa">Nama doa</string>
+    <string name="txt_demo_tanggal">tanggal</string>
+    <string name="txt_demo_date">Senin, 01-01-2022</string>
+    <string name="txt_demo_title_doa_harian">Do\'a Harian</string>
+    <string name="txt_demo_title_dzikir">Dzikir Pagi/Petang</string>
 </resources>
