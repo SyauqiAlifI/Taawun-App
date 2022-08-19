@@ -6,4 +6,9 @@
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
 
+    <item
+        android:id="@+id/navigation_dzikir"
+        android:icon="@drawable/icondzikir"
+        android:title="@string/dzikir" />
+
 </menu>
