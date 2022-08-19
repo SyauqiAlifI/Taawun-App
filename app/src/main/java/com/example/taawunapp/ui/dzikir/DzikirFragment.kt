@@ -19,7 +19,7 @@ class DzikirFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentDzikirBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentDzikirBinding.inflate(inflater, container, false)
         val dzikirViewModel = ViewModelProvider(this)[DzikirViewModel::class.java]
         return binding.root
     }
