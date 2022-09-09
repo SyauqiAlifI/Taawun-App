@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
         /*setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)*/
 
-        val navOptions = NavOptions.Builder()
-            .setEnterAnim()
+        /*val navOptions = NavOptions.Builder()
+            .setEnterAnim()*/
 
         supportActionBar?.hide()
     }
