@@ -18,13 +18,13 @@
             android:scaleType="centerCrop"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+        <TextClock
             android:id="@+id/tv_day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:format12Hour="E:d:y"
-            android:format24Hour="E:d:y"
+            android:format12Hour="EEEE dd-MM-yyyy"
+            android:format24Hour="EEEE dd-MM-yyyy"
             android:text="@string/txt_demo_date"
             android:textColor="@color/black"
             android:textSize="18sp"
