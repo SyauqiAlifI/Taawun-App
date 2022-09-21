@@ -74,7 +74,7 @@
             android:id="@+id/rv_nama_doa"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/row_item_daftar" />
+            tools:listitem="@layout/row_item_daftar_doa" />
 
     </androidx.core.widget.NestedScrollView>
 
