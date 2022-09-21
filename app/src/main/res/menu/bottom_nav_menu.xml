@@ -7,8 +7,8 @@
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_dzikir"
-        android:icon="@drawable/icondzikir"
-        android:title="@string/dzikir" />
+        android:id="@+id/navigation_doa"
+        android:icon="@drawable/icondoa"
+        android:title="@string/doa" />
 
 </menu>

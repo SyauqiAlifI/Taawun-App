@@ -11,9 +11,9 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/navigation_dzikir"
-        android:name="com.example.taawunapp.ui.dzikir.DzikirFragment"
-        android:label="@string/dzikir"
-        tools:layout="@layout/fragment_dzikir" />
+        android:id="@+id/navigation_doa"
+        android:name="com.example.taawunapp.ui.doa.DoaFragment"
+        android:label="@string/doa"
+        tools:layout="@layout/fragment_doa" />
 
 </navigation>
