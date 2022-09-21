@@ -7,5 +7,4 @@ import retrofit2.http.GET
 interface ApiService {
     @GET("Jadwalsholat")
     fun getListUser() : Call<ArrayList<Data>>
-
 }
