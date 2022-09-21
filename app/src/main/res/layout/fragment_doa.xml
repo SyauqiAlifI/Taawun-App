@@ -5,14 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DoaFragment">
+    tools:context=".ui.doa.DoaFragment">
 
     <ImageView
         android:id="@+id/bg_img_doa"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/foto_doa"
         app:layout_constraintBottom_toTopOf="@id/search_doa"
         app:layout_constraintTop_toTopOf="parent" />
 
