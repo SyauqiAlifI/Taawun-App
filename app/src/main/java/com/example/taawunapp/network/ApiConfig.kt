@@ -7,7 +7,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-object ApiConfig {
+object ApiConfig1 {
     fun getApiService():ApiService{
         val interceptor = HttpLoggingInterceptor()
         interceptor.level = HttpLoggingInterceptor.Level.BODY
@@ -25,4 +25,19 @@ object ApiConfig {
             .create(ApiService::class.java)
     }
 
+}
+
+object ApiConfig2{
+    fun getApiService():ApiService{
+        val interceptor = HttpLoggingInterceptor()
+
+        val okHttpClient = OkHttpClient.Builder()
+            .readTimeout(30,TimeUnit.SECONDS)
+            .addInterceptor(interceptor)
+            .build()
+
+        return Retrofit.Builder()
+            .baseUrl(BuildConfig.BASE_URL_B)
+
+    }
 }

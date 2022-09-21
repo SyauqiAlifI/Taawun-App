@@ -20,6 +20,7 @@ android {
 
         debug{
             buildConfigField("String","BASE_URL",BaseUrl)
+            buildConfigField("String", "BASE_URL_B", BaseUrlB)
         }
 
         release {
